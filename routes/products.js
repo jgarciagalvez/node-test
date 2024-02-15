@@ -1,7 +1,6 @@
-// Import express
-import express from 'express'
-// Run the router function
-const router = express.Router()
+// Import and run router from express
+import { Router } from 'express'
+const router = Router()
 
 // Define a GET route for fetching the list of products
 router.get('/products', (req, res) => {
