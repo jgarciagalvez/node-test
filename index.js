@@ -8,8 +8,8 @@ import axios from 'axios'
 // console.log(tau)
 // console.log(pi)
 
-// console.log(calcCircleArea(10, pi)) // 314
-// console.log(calcCircleArea(5, pi)) // 78.5
+console.log(calcCircleArea(10, pi)) // 314
+console.log(calcCircleArea(5, pi)) // 78.5
 
 let a = [1, [2, [3, [4]], 5]]
 
